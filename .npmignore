@@ -7,3 +7,5 @@ coverage
 .travis.yml
 .idea/
 examples/
+xml-file.xml
+.DS_Store
