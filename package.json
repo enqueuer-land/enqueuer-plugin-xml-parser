@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lopidio/enqueuer-plugin-xml-parser.git"
+    "url": "git+https://github.com/enqueuer-land/enqueuer-plugin-xml-parser.git"
   },
   "keywords": [
     "enqueuer",
@@ -25,9 +25,9 @@
   "author": "Virgs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lopidio/enqueuer-plugin-xml-parser/issues"
+    "url": "https://github.com/enqueuer-land/enqueuer-plugin-xml-parser/issues"
   },
-  "homepage": "https://github.com/lopidio/enqueuer-plugin-xml-parser#readme",
+  "homepage": "https://github.com/enqueuer-land/enqueuer-plugin-xml-parser#readme",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^11.9.4",
