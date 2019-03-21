@@ -1,6 +1,6 @@
 {
   "name": "enqueuer-plugin-xml-parser",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "description": "Enqueuer xml parser plugin",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
