@@ -9,7 +9,7 @@ Enqueuer plugin to enable xml parsing
 
 
 ##### Options
-You can pass an optional 2nd argument to parse(), which can be an object containing any of the following properties:
+You can pass optional arguments to parse:
 
 **preserveAttributes**  
 This optional property, when set to true, will cause all XML attributes to be kept separate in their own sub-object called _Attribs for each element.
@@ -23,5 +23,9 @@ If you want the outermost root node (also called the document node) preserved wh
 **preserveWhitespace**  
 If you want to preserve whitespace before and after text inside elements, set the preserveWhitespace flag to a true value. Note that this has no effect on attributes (whitespace is always preserved there), nor does it effect whitespace between complex elements. Example:
 
-**forceArrays**  
+**preserveDocumentNode**  
 By default single elements are not represented as arrays, until another element with the same appears at the same level in the XML tree. However, if you want to force every element into an array all the time, even when there is only a single element with a given name, set the forceArrays property to true. Example:
+
+###### Example
+    
+    <<xml://path/to/file.xml?preserveAttributes=false&preserveDocumentNode=true&preserveDocumentNode>>
