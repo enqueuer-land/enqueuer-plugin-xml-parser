@@ -1,0 +1,9 @@
+xmlContent: <<xml://xml-file.xml?preserveDocumentNode>>
+onInit:
+    assertions:
+    -   expect: requisition.xmlContent.toolStore.tool.title
+        toBeEqualTo: `Enqueuer`
+    -   expect: requisition.xmlContent.toolStore.tool.author._Data
+        toBeEqualTo: `Virgs`
+    -   expect: requisition.xmlContent.toolStore.tool.author.year
+        toBeEqualTo: 2019
