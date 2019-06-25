@@ -1,5 +1,5 @@
 import {entryPoint, XmlObjectParser} from './xml-object-parser';
-import {MainInstance} from 'enqueuer-plugins-template';
+import {MainInstance} from 'enqueuer';
 
 describe('XmlObjectParser', () => {
 

@@ -38,7 +38,7 @@
     "typescript": "^3.0.1"
   },
   "dependencies": {
-    "enqueuer-plugins-template": "^1.0.10",
+    "enqueuer": "^5.0.0",
     "pixl-xml": "^1.0.13"
   },
   "jest": {

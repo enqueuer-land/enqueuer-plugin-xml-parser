@@ -1,4 +1,5 @@
-import {ObjectParser, MainInstance} from 'enqueuer-plugins-template';
+import {MainInstance, ObjectParser} from 'enqueuer';
+
 const pixl = require('pixl-xml');
 
 export class XmlObjectParser implements ObjectParser {
