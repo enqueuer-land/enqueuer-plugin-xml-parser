@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/enqueuer-land/enqueuer-plugin-xml-parser#readme",
   "devDependencies": {
-    "@types/jest": "^25.1.0",
+    "@types/jest": "^25.1.2",
     "@types/node": "^13.1.0",
     "jest": "^24.5.0",
     "ts-jest": "^25.1.0",
