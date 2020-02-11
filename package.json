@@ -30,7 +30,7 @@
   "homepage": "https://github.com/enqueuer-land/enqueuer-plugin-xml-parser#readme",
   "devDependencies": {
     "@types/jest": "^25.1.2",
-    "@types/node": "^13.1.0",
+    "@types/node": "^13.7.1",
     "jest": "^24.5.0",
     "ts-jest": "^25.1.0",
     "ts-node": "^8.0.2",
@@ -38,7 +38,7 @@
     "typescript": "^3.0.1"
   },
   "dependencies": {
-    "enqueuer": "^5.0.0",
+    "enqueuer": "^5.0.4",
     "pixl-xml": "^1.0.13"
   },
   "jest": {
