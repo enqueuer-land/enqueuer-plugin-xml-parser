@@ -29,16 +29,16 @@
   },
   "homepage": "https://github.com/enqueuer-land/enqueuer-plugin-xml-parser#readme",
   "devDependencies": {
-    "@types/jest": "^25.1.2",
+    "@types/jest": "^25.1.4",
     "@types/node": "^13.9.0",
     "jest": "^24.5.0",
-    "ts-jest": "^25.2.0",
+    "ts-jest": "^25.2.1",
     "ts-node": "^8.0.2",
     "tslint": "^5.11.0",
     "typescript": "^3.0.1"
   },
   "dependencies": {
-    "enqueuer": "^5.0.4",
+    "enqueuer": "^5.1.1",
     "pixl-xml": "^1.0.13"
   },
   "jest": {
